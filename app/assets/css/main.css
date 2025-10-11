@@ -1,8 +1,23 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DMSans-Variable.ttf") format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DM Sans Italic";
+    src: url("../fonts/DMSans-Italic-Variable.ttf") format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+}
+
 @theme {
-    --font-sans: "Be Vietnam Pro";
-    --font-mono: "Geist Mono";
+    --font-sans: "DM Sans", sans-serif;
 
     --color-volt-50: oklch(0.968 0.016 289.935);
     --color-volt-100: oklch(0.941 0.031 293.776);
