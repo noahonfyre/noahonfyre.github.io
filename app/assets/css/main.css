@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Be Vietnam Pro";
+    --font-mono: "Geist Mono";
+
+    --color-volt-50: oklch(0.968 0.016 289.935);
+    --color-volt-100: oklch(0.941 0.031 293.776);
+    --color-volt-200: oklch(0.888 0.059 291.549);
+    --color-volt-300: oklch(0.802 0.108 290.892);
+    --color-volt-400: oklch(0.697 0.17 290.158);
+    --color-volt-500: oklch(0.592 0.233 288.832);
+    --color-volt-600: oklch(0.537 0.256 288.914);
+    --color-volt-700: oklch(0.481 0.253 287.682);
+    --color-volt-800: oklch(0.422 0.221 287.576);
+    --color-volt-900: oklch(0.371 0.188 288.772);
+    --color-volt-950: oklch(0.276 0.142 286.043);
+
+    --color-element-50: oklch(0.941 0.027 297.309);
+    --color-element-100: oklch(0.867 0.026 297.874);
+    --color-element-200: oklch(0.777 0.027 297.794);
+    --color-element-300: oklch(0.661 0.03 297.02);
+    --color-element-400: oklch(0.529 0.03 297.408);
+    --color-element-500: oklch(0.458 0.031 297.207);
+    --color-element-600: oklch(0.384 0.032 296.904);
+    --color-element-700: oklch(0.307 0.034 296.398);
+    --color-element-800: oklch(0.246 0.038 294.954);
+    --color-element-900: oklch(0.204 0.039 294.121);
+    --color-element-950: oklch(0.159 0.041 292.665);
+}
