@@ -1,0 +1,3 @@
+<template>
+  <FrankfurtSection></FrankfurtSection>
+</template>
