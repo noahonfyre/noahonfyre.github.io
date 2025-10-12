@@ -24,6 +24,10 @@
     font-style: normal;
 }
 
+body {
+    @apply text-volt-50 bg-element-950
+}
+
 @theme {
     --font-sans: "DM Sans", sans-serif;
     --font-display: "Syne", "DM Sans", sans-serif;
@@ -40,15 +44,15 @@
     --color-volt-900: oklch(0.371 0.188 288.772);
     --color-volt-950: oklch(0.276 0.142 286.043);
 
-    --color-element-50: oklch(0.941 0.027 297.309);
-    --color-element-100: oklch(0.867 0.026 297.874);
-    --color-element-200: oklch(0.777 0.027 297.794);
-    --color-element-300: oklch(0.661 0.03 297.02);
-    --color-element-400: oklch(0.529 0.03 297.408);
-    --color-element-500: oklch(0.458 0.031 297.207);
-    --color-element-600: oklch(0.384 0.032 296.904);
-    --color-element-700: oklch(0.307 0.034 296.398);
-    --color-element-800: oklch(0.246 0.038 294.954);
-    --color-element-900: oklch(0.204 0.039 294.121);
-    --color-element-950: oklch(0.159 0.041 292.665);
+    --color-element-50: oklch(0.924 0.025 303.475);
+    --color-element-100: oklch(0.85 0.024 304.438);
+    --color-element-200: oklch(0.762 0.025 304.379);
+    --color-element-300: oklch(0.649 0.028 303.253);
+    --color-element-400: oklch(0.516 0.028 304.089);
+    --color-element-500: oklch(0.448 0.029 303.944);
+    --color-element-600: oklch(0.374 0.03 303.715);
+    --color-element-700: oklch(0.3 0.032 303.353);
+    --color-element-800: oklch(0.239 0.035 301.669);
+    --color-element-900: oklch(0.196 0.037 301.013);
+    --color-element-950: oklch(0.151 0.039 300.216);
 }
