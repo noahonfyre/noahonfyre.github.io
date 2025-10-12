@@ -16,8 +16,17 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: "Syne";
+    src: url("../fonts/Syne-Variable.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
 @theme {
     --font-sans: "DM Sans", sans-serif;
+    --font-display: "Syne", "DM Sans", sans-serif;
 
     --color-volt-50: oklch(0.968 0.016 289.935);
     --color-volt-100: oklch(0.941 0.031 293.776);
