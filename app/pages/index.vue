@@ -5,5 +5,3 @@
   </div>
   <FrankfurtSection></FrankfurtSection>
 </template>
-<script setup lang="ts">
-</script>
