@@ -18,7 +18,7 @@
 <script setup>
 const navItems = [
   { text: "Introduction", to: "/" },
-  { text: "Technologies", to: "/tech" },
+  { text: "Technologies", to: "/" },
   { text: "Projects", to: "/" },
   { text: "Experience", to: "/" },
   { text: "About", to: "/" },
