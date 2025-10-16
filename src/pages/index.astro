@@ -1,7 +1,14 @@
 ---
+import FrankfurtSection from "../components/FrankfurtSection.vue"
+import LandingSection from "../components/LandingSection.vue"
+import Navbar from "../components/Navbar.vue"
 import Layout from "../layouts/Layout.astro"
 ---
 
 <Layout>
-	<p>test</p>
+	<div class="h-screen bg-volt-600 flex flex-col px-6 pb-6">
+    <Navbar></Navbar>
+    <LandingSection></LandingSection>
+  </div>
+  <FrankfurtSection></FrankfurtSection>
 </Layout>
